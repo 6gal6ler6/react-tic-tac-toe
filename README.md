@@ -3,6 +3,8 @@
 
 A modern implementation of the classic Tic-Tac-Toe game built with React, TypeScript, and Chakra UI. This application allows players to play against each other or against a CPU with an intelligent algorithm. The game is hosted on GitHub Pages.
 
+Try the game here: [https://6gal6ler6.github.io/react-tic-tac-toe/](https://6gal6ler6.github.io/react-tic-tac-toe/)
+
 ## Features
 
 - Play against another person or a CPU
