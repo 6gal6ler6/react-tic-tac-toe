@@ -31,28 +31,28 @@ A modern implementation of the classic Tic-Tac-Toe game built with React, TypeSc
 
 1. Clone the repository:
 
-\`\`\`sh
+```sh
 git clone https://github.com/6gal6ler6/react-tic-tac-toe.git
 cd react-tic-tac-toe
-\`\`\`
+```
 
 2. Install the dependencies:
 
-\`\`\`sh
+```sh
 npm install
 # or
 yarn install
-\`\`\`
+```
 
 3. Start the development server:
 
-\`\`\`sh
+```sh
 npm start
 # or
 yarn start
-\`\`\`
+```
 
-The application will be available at \`http://localhost:3000\`.
+The application will be available at `http://localhost:3000`.
 
 ### Deployment
 
@@ -60,31 +60,31 @@ To deploy the application to GitHub Pages:
 
 1. Build the application:
 
-\`\`\`sh
+```sh
 npm run build
 # or
 yarn build
-\`\`\`
+```
 
 2. Deploy to GitHub Pages:
 
-\`\`\`sh
+```sh
 npm run deploy
 # or
 yarn deploy
-\`\`\`
+```
 
-The application will be available at \`https://6gal6ler6.github.io/react-tic-tac-toe\`.
+The application will be available at `https://6gal6ler6.github.io/react-tic-tac-toe`.
 
 ## Application Structure
 
 ### Components
 
-- \`App.tsx\`: The main application component that sets up routing.
-- \`Game.tsx\`: The main game component that handles game logic, state management, and rendering.
-- \`Board.tsx\`: The component that renders the game board.
-- \`Square.tsx\`: The component that renders each square on the board.
-- \`OpponentSelection.tsx\`: The component that allows the user to select the opponent (Player or CPU).
+- `App.tsx`: The main application component that sets up routing.
+- `Game.tsx`: The main game component that handles game logic, state management, and rendering.
+- `Board.tsx`: The component that renders the game board.
+- `Square.tsx`: The component that renders each square on the board.
+- `OpponentSelection.tsx`: The component that allows the user to select the opponent (Player or CPU).
 
 ### Concepts Applied
 
@@ -94,11 +94,11 @@ The application is broken down into reusable components, each responsible for a 
 
 #### 2. State Management
 
-State management is handled using the \`useState\` and \`useEffect\` hooks. The game state, including the current board, the next player, and whether the game is over, is managed within the \`Game\` component.
+State management is handled using the `useState` and `useEffect` hooks. The game state, including the current board, the next player, and whether the game is over, is managed within the `Game` component.
 
 #### 3. Routing
 
-React Router is used for navigation within the application. The \`HashRouter\` component is used to ensure compatibility with GitHub Pages.
+React Router is used for navigation within the application. The `HashRouter` component is used to ensure compatibility with GitHub Pages.
 
 #### 4. Minimax Algorithm
 
@@ -114,11 +114,11 @@ Chakra UI is used for styling and theming. The application supports both dark an
 
 #### 7. Deployment to GitHub Pages
 
-The application is deployed to GitHub Pages using the \`gh-pages\` package. The \`homepage\` field in \`package.json\` is configured to ensure the application works correctly on GitHub Pages.
+The application is deployed to GitHub Pages using the `gh-pages` package. The `homepage` field in `package.json` is configured to ensure the application works correctly on GitHub Pages.
 
 ## Project Structure
 
-\`\`\`
+```
 react-tic-tac-toe/
 │
 ├── public/
@@ -143,7 +143,7 @@ react-tic-tac-toe/
 ├── package.json
 ├── README.md
 └── ...
-\`\`\`
+```
 
 ## Contributing
 
